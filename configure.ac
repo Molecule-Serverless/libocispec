@@ -25,7 +25,7 @@ case "${enableval}" in
 esac],[embedded_yajl=false])
 
 AM_CONDITIONAL([HAVE_EMBEDDED_YAJL], [test x"$embedded_yajl" == xtrue])
-AM_COND_IF([HAVE_EMBEDDED_YAJL], [], [PKG_CHECK_MODULES([YAJL], [yajl >= 2.1.0])])
+AM_COND_IF([HAVE_EMBEDDED_YAJL], [], [PKG_CHECK_MODULES([YAJL], [yajl >= 2.0.0])])
 
 AC_ARG_VAR(OCI_RUNTIME_EXTENSIONS, [extensions for the OCI runtime parser])
 AC_ARG_VAR(OCI_IMAGE_EXTENSIONS, [extensions for the OCI image parser])
