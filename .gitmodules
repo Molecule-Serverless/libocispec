@@ -1,9 +1,9 @@
 [submodule "runtime-spec"]
 	path = runtime-spec
-	url = https://github.com/opencontainers/runtime-spec
+	url = git@github.com:opencontainers/runtime-spec.git
 [submodule "image-spec"]
 	path = image-spec
-	url = https://github.com/opencontainers/image-spec
+	url = git@github.com:opencontainers/image-spec.git
 [submodule "yajl"]
 	path = yajl
-	url = https://github.com/containers/yajl.git
+	url = git@github.com:containers/yajl.git
