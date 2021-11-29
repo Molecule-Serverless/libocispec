@@ -1,0 +1,9 @@
+[submodule "image-spec"]
+	path = image-spec
+	url = ../image-spec.git
+[submodule "runtime-spec"]
+	path = runtime-spec
+	url = ../runtime-spec.git
+[submodule "yajl"]
+	path = yajl
+	url = ../yajl.git
